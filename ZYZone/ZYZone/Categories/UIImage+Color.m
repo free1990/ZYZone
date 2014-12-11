@@ -1,9 +1,9 @@
 //
 //  UIImage+Color.m
-//  Teacher
+//  ZYZone
 //
-//  Created by zhangkai on 10/16/14.
-//  Copyright (c) 2014 FClassroom. All rights reserved.
+//  Created by John on 14/12/11.
+//  Copyright (c) 2014年 WorkMac. All rights reserved.
 //
 
 #import "UIImage+Color.h"

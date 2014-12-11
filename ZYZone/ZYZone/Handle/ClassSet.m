@@ -1,9 +1,9 @@
 //
-//  ClassGallery.m
-//  CoreClassGallery
+//  ClassSet.m
+//  ZYZone
 //
-//  Created by Jeff Buck on 7/31/10.
-//  Copyright 2010 Jeff Buck. All rights reserved.
+//  Created by John on 14/12/11.
+//  Copyright (c) 2014年 WorkMac. All rights reserved.
 //
 
 #import "ClassSet.h"

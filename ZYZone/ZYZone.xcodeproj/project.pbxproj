@@ -28,6 +28,7 @@
 		D60F31ED1A39428F009D4D43 /* ClassSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D60F31EC1A39428F009D4D43 /* ClassSet.m */; };
 		D60F31F01A3942B5009D4D43 /* ClassItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D60F31EF1A3942B5009D4D43 /* ClassItem.m */; };
 		D60F31F31A394307009D4D43 /* testDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D60F31F21A394307009D4D43 /* testDemo.m */; };
+		D6422C511A396833000D9759 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6422C501A396833000D9759 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		D60F31F11A394307009D4D43 /* testDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testDemo.h; sourceTree = "<group>"; };
 		D60F31F21A394307009D4D43 /* testDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDemo.m; sourceTree = "<group>"; };
 		D60F31F41A394519009D4D43 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D6422C4F1A396833000D9759 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D6422C501A396833000D9759 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E3B90A1B2B38489E128E0494 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,6 +233,8 @@
 		D60F31C01A3940C6009D4D43 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D6422C4F1A396833000D9759 /* RootViewController.h */,
+				D6422C501A396833000D9759 /* RootViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 				TargetAttributes = {
 					D60F31511A392693009D4D43 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = JX333254R3;
 					};
 					D60F316A1A392693009D4D43 = {
 						CreatedOnToolsVersion = 6.1;
@@ -455,6 +461,7 @@
 				D60F31581A392693009D4D43 /* main.m in Sources */,
 				D60F31E81A3941AE009D4D43 /* AppUtil.m in Sources */,
 				D60F31DF1A394145009D4D43 /* UIViewController+DismissKeyboard.m in Sources */,
+				D6422C511A396833000D9759 /* RootViewController.m in Sources */,
 				D60F31F31A394307009D4D43 /* testDemo.m in Sources */,
 				D60F31E91A3941AE009D4D43 /* DebugUtil.m in Sources */,
 				D60F31D91A394145009D4D43 /* NSDate+Utilities.m in Sources */,
@@ -581,6 +588,7 @@
 			baseConfigurationReference = 5CF1BC6BF2D9B1D9DD86BE7B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYZone/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYZone/Info.plist;
@@ -595,6 +603,7 @@
 			baseConfigurationReference = E3B90A1B2B38489E128E0494 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYZone/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYZone/Info.plist;
