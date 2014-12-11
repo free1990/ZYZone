@@ -45,13 +45,13 @@ static int const kMGBadgeViewTag = 9876;
     
     CGRect superviewFrame = self.superview.frame;
     
-    CGFloat factor = ApplicationDelegate.scaleFactor;
-    if (_minDiameter != 0) {
-        self.frame = CGRectMake(0 , 0, factor * _minDiameter, factor * _minDiameter);
-        self.center = CGPointMake(superviewFrame.size.width - 10*factor , 10*factor);
-#pragma mark - force to set text draw color to clear color
-        self.textColor  = [UIColor clearColor];
-    }
+//    CGFloat factor = ApplicationDelegate.scaleFactor;
+//    if (_minDiameter != 0) {
+//        self.frame = CGRectMake(0 , 0, factor * _minDiameter, factor * _minDiameter);
+//        self.center = CGPointMake(superviewFrame.size.width - 10*factor , 10*factor);
+//#pragma mark - force to set text draw color to clear color
+//        self.textColor  = [UIColor clearColor];
+//    }
     
     if(_badgeValue != 0 || _displayIfZero) {
         
@@ -218,9 +218,9 @@ static int const kMGBadgeViewTag = 9876;
         }
     }
     
-    CGFloat factor = ApplicationDelegate.scaleFactor;
+//    CGFloat factor = ApplicationDelegate.scaleFactor;
     
-    self.center = CGPointMake(superviewFrame.size.width - 8*factor, 8*factor);
+//    self.center = CGPointMake(superviewFrame.size.width - 8*factor, 8*factor);
     
 //    switch (position) {
 //        case MGBadgePositionTopRight: {
