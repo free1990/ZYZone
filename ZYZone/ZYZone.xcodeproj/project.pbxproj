@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		83EADDDF73B07DCBE61A0542 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB6A2841DDC16CB7B35C456 /* libPods.a */; };
+		CF5C0AB71A43060C005F322F /* BezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AA91A43060C005F322F /* BezierCurve.m */; };
+		CF5C0AB81A43060C005F322F /* CatmullRomSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AAB1A43060C005F322F /* CatmullRomSpline.m */; };
+		CF5C0AB91A43060C005F322F /* CubicBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AAE1A43060C005F322F /* CubicBezierCurve.m */; };
+		CF5C0ABA1A43060C005F322F /* LinearBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AB01A43060C005F322F /* LinearBezierCurve.m */; };
+		CF5C0ABB1A43060C005F322F /* NSArray_PointArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AB21A43060C005F322F /* NSArray_PointArray.m */; };
+		CF5C0ABC1A43060C005F322F /* QuadraticBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AB41A43060C005F322F /* QuadraticBezierCurve.m */; };
+		CF5C0ABD1A43060C005F322F /* Spline.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C0AB61A43060C005F322F /* Spline.m */; };
 		D60F31581A392693009D4D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60F31571A392693009D4D43 /* main.m */; };
 		D60F31611A392693009D4D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60F315F1A392693009D4D43 /* Main.storyboard */; };
 		D60F31631A392693009D4D43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60F31621A392693009D4D43 /* Images.xcassets */; };
@@ -44,6 +51,21 @@
 /* Begin PBXFileReference section */
 		2FB6A2841DDC16CB7B35C456 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF1BC6BF2D9B1D9DD86BE7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5C0AA81A43060C005F322F /* BezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurve.h; sourceTree = "<group>"; };
+		CF5C0AA91A43060C005F322F /* BezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurve.m; sourceTree = "<group>"; };
+		CF5C0AAA1A43060C005F322F /* CatmullRomSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatmullRomSpline.h; sourceTree = "<group>"; };
+		CF5C0AAB1A43060C005F322F /* CatmullRomSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatmullRomSpline.m; sourceTree = "<group>"; };
+		CF5C0AAC1A43060C005F322F /* CGPointArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointArithmetic.h; sourceTree = "<group>"; };
+		CF5C0AAD1A43060C005F322F /* CubicBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicBezierCurve.h; sourceTree = "<group>"; };
+		CF5C0AAE1A43060C005F322F /* CubicBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicBezierCurve.m; sourceTree = "<group>"; };
+		CF5C0AAF1A43060C005F322F /* LinearBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearBezierCurve.h; sourceTree = "<group>"; };
+		CF5C0AB01A43060C005F322F /* LinearBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearBezierCurve.m; sourceTree = "<group>"; };
+		CF5C0AB11A43060C005F322F /* NSArray_PointArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_PointArray.h; sourceTree = "<group>"; };
+		CF5C0AB21A43060C005F322F /* NSArray_PointArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_PointArray.m; sourceTree = "<group>"; };
+		CF5C0AB31A43060C005F322F /* QuadraticBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticBezierCurve.h; sourceTree = "<group>"; };
+		CF5C0AB41A43060C005F322F /* QuadraticBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadraticBezierCurve.m; sourceTree = "<group>"; };
+		CF5C0AB51A43060C005F322F /* Spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spline.h; sourceTree = "<group>"; };
+		CF5C0AB61A43060C005F322F /* Spline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spline.m; sourceTree = "<group>"; };
 		D60F31521A392693009D4D43 /* ZYZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60F31561A392693009D4D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60F31571A392693009D4D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +138,28 @@
 				E3B90A1B2B38489E128E0494 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF5C0AA71A43060C005F322F /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C0AA81A43060C005F322F /* BezierCurve.h */,
+				CF5C0AA91A43060C005F322F /* BezierCurve.m */,
+				CF5C0AAA1A43060C005F322F /* CatmullRomSpline.h */,
+				CF5C0AAB1A43060C005F322F /* CatmullRomSpline.m */,
+				CF5C0AAC1A43060C005F322F /* CGPointArithmetic.h */,
+				CF5C0AAD1A43060C005F322F /* CubicBezierCurve.h */,
+				CF5C0AAE1A43060C005F322F /* CubicBezierCurve.m */,
+				CF5C0AAF1A43060C005F322F /* LinearBezierCurve.h */,
+				CF5C0AB01A43060C005F322F /* LinearBezierCurve.m */,
+				CF5C0AB11A43060C005F322F /* NSArray_PointArray.h */,
+				CF5C0AB21A43060C005F322F /* NSArray_PointArray.m */,
+				CF5C0AB31A43060C005F322F /* QuadraticBezierCurve.h */,
+				CF5C0AB41A43060C005F322F /* QuadraticBezierCurve.m */,
+				CF5C0AB51A43060C005F322F /* Spline.h */,
+				CF5C0AB61A43060C005F322F /* Spline.m */,
+			);
+			path = Curve;
 			sourceTree = "<group>";
 		};
 		D60F31491A392693009D4D43 = {
@@ -210,6 +254,7 @@
 		D60F31BF1A3940C6009D4D43 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				CF5C0AA71A43060C005F322F /* Curve */,
 				D60F31C91A394145009D4D43 /* NSDate+Utilities.h */,
 				D60F31CA1A394145009D4D43 /* NSDate+Utilities.m */,
 				D60F31CB1A394145009D4D43 /* NSString+MD5.h */,
@@ -451,8 +496,10 @@
 			files = (
 				D60F31F01A3942B5009D4D43 /* ClassItem.m in Sources */,
 				D60F31E01A394145009D4D43 /* UIViewController+HUD.m in Sources */,
+				CF5C0AB81A43060C005F322F /* CatmullRomSpline.m in Sources */,
 				D60F31DE1A394145009D4D43 /* UIView+MGBadgeView.m in Sources */,
 				D60F31EA1A3941AE009D4D43 /* JSONUtil.m in Sources */,
+				CF5C0AB71A43060C005F322F /* BezierCurve.m in Sources */,
 				D60F31DB1A394145009D4D43 /* PathUtil.m in Sources */,
 				D60F31DC1A394145009D4D43 /* UIImage+Color.m in Sources */,
 				D60F31DD1A394145009D4D43 /* UIView+Frame.m in Sources */,
@@ -460,12 +507,17 @@
 				D60F31ED1A39428F009D4D43 /* ClassSet.m in Sources */,
 				D60F31581A392693009D4D43 /* main.m in Sources */,
 				D60F31E81A3941AE009D4D43 /* AppUtil.m in Sources */,
+				CF5C0AB91A43060C005F322F /* CubicBezierCurve.m in Sources */,
+				CF5C0ABD1A43060C005F322F /* Spline.m in Sources */,
 				D60F31DF1A394145009D4D43 /* UIViewController+DismissKeyboard.m in Sources */,
 				D6422C511A396833000D9759 /* RootViewController.m in Sources */,
 				D60F31F31A394307009D4D43 /* testDemo.m in Sources */,
+				CF5C0ABB1A43060C005F322F /* NSArray_PointArray.m in Sources */,
 				D60F31E91A3941AE009D4D43 /* DebugUtil.m in Sources */,
 				D60F31D91A394145009D4D43 /* NSDate+Utilities.m in Sources */,
 				D60F31BD1A393FAC009D4D43 /* AppDelegate.m in Sources */,
+				CF5C0ABC1A43060C005F322F /* QuadraticBezierCurve.m in Sources */,
+				CF5C0ABA1A43060C005F322F /* LinearBezierCurve.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
